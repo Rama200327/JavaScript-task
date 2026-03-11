@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 4 - Simple Condition</title>
+</head>
+<body>
+
+<p id="result"></p>
+
+<script>
+    let x = Number(prompt("Enter x:"));
+    let y = Number(prompt("Enter y:"));
+
+    let message;
+
+    if (x > y) {
+        message = "Hello World";
+    } else {
+        message = "Goodbye";
+    }
+
+    alert(message);
+    console.log(message);
+    document.getElementById("result").innerHTML = message;
+</script>
+
+</body>
+</html>
